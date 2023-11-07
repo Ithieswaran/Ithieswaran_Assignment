@@ -1,0 +1,62 @@
+
+body {
+    background-color: gray;
+}
+
+#container {
+    margin-left: 450px;
+    margin-top: 100px;
+    background-color: aliceblue;
+    width: 353px;
+    height: 60px;
+    border-radius: 0.1rem;
+}
+
+
+#wrapper {
+    margin-left: 450px;
+    background-color: black;
+    width: 280px;
+}
+
+
+
+#wrapper td, #container td {
+    padding: 30px;
+}
+
+
+#container #clear {
+    margin-left: 190px;
+    background-color: rgb(9, 110, 128);
+    border: none;
+    color: white;
+}
+
+
+#wrapper .number,
+#wrapper .operator {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+
+button, div {
+    font-size: 1.5rem;
+}
+
+
+#wrapper #add,
+#wrapper #subtract,
+#wrapper #multiply,
+#wrapper #divide {
+    background-color: gray;
+    border: none;
+}
+#wrapper table
+{
+    border: 1px;
+    border-style: solid;
+    border-radius: 0.1rem;
+}
