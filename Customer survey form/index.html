@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Customer Survey Form</h1>
+    <form id="surveyForm">
+        <div id="wrapper">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <label for="lastName">Last Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="name" name="name" required></td>
+                    <td><input type="text" id="lastName" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date of Birth</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="country" name="country" required>
+          <option value="Select" selected="disabled">Select Country</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="China">China</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ph">Phone</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="tel" id="ph" name="ph" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="Male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="Female" required>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="profession">Profession</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="profession" name="profession" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Is this the first time you are using our products & service ?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="services" id="services-yes" value="Yes" required>
+                        <label for="services-yes">Yes</label>
+                        <input type="radio" name="services" id="services-no" value="No" required>
+                        <label for="services-no">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Would you suggest to your friends and colleagues?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="suggestion" id="suggestion-yes" value="Yes" required>
+                        <label for="suggestion-yes">Yes</label>
+                        <input type="radio" name="suggestion" id="suggestion-no" value="No" required>
+                        <label for="suggestion-no">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="satisfied">Are you satisfied with our service ?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="satisfied" id="satisfied-yes" value="Satisfied" required>
+                        <label for="satisfied-yes">Satisfied</label>
+                        <input type="radio" name="satisfied" id="satisfied-undecided" value="Undecided" required>
+                        <label for="satisfied-undecided">Undecided</label>
+                        <input type="radio" name="satisfied" id="satisfied-unsatisfied" value="Unsatisfied" required>
+                        <label for="satisfied-unsatisfied">Unsatisfied</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="suggestions">Do you have any suggestions for improvement ?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea rows="4" cols="50" id="suggestions" name="suggestions"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" id="submit">Submit</button>
+                        <button type="reset" id="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <div id="bottom">&copy;2023 Customer Survey Form. All Rights Reserved | Designed by <span style="color: black;">W3Layouts</span></div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>

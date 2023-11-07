@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(86, 173, 244);
+}
+body h1,#bottom ,#reset
+{
+    text-align: center;
+    margin-right: 10px;
+    color: aliceblue;
+}
+#wrapper
+{
+    background-color: aliceblue;
+   margin: 70px auto;
+    width: 590px;
+    height: 740px;
+    padding: 2rem;
+}
+#wrapper td{
+    padding: 5px;
+}
+#submit,#reset
+{
+    color: black;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(86, 173, 244);
+    outline: none;
+    border: none;
+}
